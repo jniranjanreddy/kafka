@@ -22,3 +22,10 @@ docker exec -it kafka kafka-console-consumer --topic test-topic --bootstrap-serv
 docker volume ls
 docker run -it --rm -v zookeeper-data:/data busybox ls /data
 ```
+## Kafdrop
+```
+docker run -d -p 7000:9000 \
+    -e KAFKA_BROKERCONNECT=<kafkaip>:9092 \
+    -e SERVER_SERVLET_CONTEXTPATH="/" \
+    obsidiandynamics/kafdrop
+```
