@@ -5,6 +5,7 @@
 ## https://github.com/pedrojunqueira/PytalistaYT/tree/master/Python/kafka
 ## https://github.com/Azure/azure-event-hubs-for-kafka/blob/master/quickstart/python/setup.sh
 
+<img width="1019" height="635" alt="image" src="https://github.com/user-attachments/assets/7bd7dbb0-6a0c-4211-bb0e-a866d07f9162" />
 
 ## Create topic
 ```
